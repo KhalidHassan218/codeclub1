@@ -1,0 +1,165 @@
+.sign-up{
+    background-image: linear-gradient(68deg, #7e5ea5 0%, #4346b5 35%, #0c1333 100%);
+    min-height: 100vh;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.sign-up .code-club{
+    font-size: 40px;
+font-weight: 700;
+font-family: "Cairo";
+}
+
+.head .codeclub-link{
+    color: #ffffff;
+}
+
+
+.head a.login-btn{
+    border-radius: 15px;
+background-color: #3177fa;
+color: #ffffff;
+padding: 3px 40px;
+}
+
+.row .text h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Cairo";
+}
+
+.row .text p{
+    margin-bottom: 0;
+    font-size: 30px;
+font-family: "Calibri";
+}
+
+.row .trusted {
+    font-size: 40px;
+font-weight: 700;
+font-family: "Cairo";
+}
+
+.signup-card{
+    max-width: 100%;
+    max-height: 100%;
+height: 100%;
+border-radius: 15px;
+background-color: #ffffff;
+border: 1px solid #707070;
+
+}
+.signup-card h3{
+    font-size: 25px;
+color: #000000;
+font-weight: bold;
+font-family: "Calibri";
+text-align: center;
+}
+
+.signup-google{
+    background-color: #4285f4;
+    padding: 1px;
+    position: relative;
+}
+.signup-google p{
+    font-size: 20px;
+font-weight: bold;
+justify-items: center;
+}
+.google-icon{
+    background-color: #ffffff;
+    height: 80%;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divider{
+    font-size: 23px;
+color: #a1a1a1;
+text-align: center;
+position: relative;
+margin-top: 30px;
+}
+.divider::before{
+    position: absolute;
+    content: '';
+    width: 45%;
+    height: 3px;
+background-color: #a1a1a1;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+}
+.divider::after{
+    position: absolute;
+    content: '';
+    width: 45%;
+    height: 3px;
+background-color: #a1a1a1;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+label{
+    font-size: 20px;
+color: #1e2244;
+font-weight: 700;
+font-family: "Cairo";
+display: block;
+}
+
+.sign-up input{
+    background-color: #fafafb;
+border: 1.5px solid #a1a1a1;
+}
+.sign-up  input[type="submit"]{
+    background-color: #0055d9;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Cairo";
+
+}
+
+.password-container{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    border: 1.5px solid #a1a1a1;
+
+    color: #585757;
+    height: 98%;
+    right: 1px;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+}
+.eye-icon:hover{
+    background-color: #dfd3d3;
+}
+
+
+
+.terms{
+    font-size: 15px;
+color: #1e2244;
+border-bottom: 2px solid #a1a1a1;
+padding-bottom: 10px;
+}
+
+.sign-in-btn{
+    font-size: 20px;
+color: #1e2244;
+font-weight: 700;
+font-family: "Cairo";
+}
+
+.sign-in-btn a{
+    color: blue !important;
+}

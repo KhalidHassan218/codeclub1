@@ -1,13 +1,42 @@
+@font-face {
+  font-family: Calibri;
+  src: url('./assets/fonts/Calibri\ Regular.ttf') format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: Calibri !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li{
+  list-style-type: none;
 }
+ a{
+  text-decoration: none !important;
+  display: inline-block
+ }
+
+ .btn--blue{
+  background-color: #3177fa;
+  color: white;
+  border-radius: 10px;
+   outline: none;
+   border: none;
+   font-weight: 600;
+   font-size: 20px;
+  padding: 0 10px ;
+ }
+ .btn--blue:focus{
+  border: none;
+  outline: none;
+ }
+ .pointer{
+  cursor: pointer;
+ }
+ input,input:focus{
+  border: none;
+  outline: none;
+ }

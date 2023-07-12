@@ -1,0 +1,123 @@
+.find-job{
+background-color: #11193b;
+min-height: 100vh;
+padding-top: 60px;
+color: #ffffff;
+font-family: "Calibri";
+/* text-align: center; */
+}
+
+.find-job h1{
+    font-size: 74px;
+text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    .find-job h1{
+
+        font-size: 50px;
+    }
+    
+}
+
+.find-job .text{
+    font-size: 25px;
+color: #bec6e6;
+text-align: center;
+}
+
+.jobs-types p {
+    font-size: 30px;
+font-weight: bold;
+position: relative;
+margin-bottom: 0 !important;
+padding-bottom: 25px;
+color:  #666f90;
+cursor: pointer;
+}
+
+.jobs-types p.active {
+    color: #ffffff;
+
+}
+.jobs-types{
+    position: relative;
+    margin-bottom: 80px;
+    max-width: 100%;
+    width: 1012px;
+}
+.jobs-types::before{
+position: absolute;
+content: '';
+height: 10px;
+width: 100%;
+bottom: 0;
+left: 0;
+background-color: #ffffff;
+border-radius: 5px;
+}
+.jobs-types .type{
+    font-size: 2.6vw;
+}
+
+.jobs-types p.active::before{
+    position: absolute;
+content: '';
+height: 10px;
+border-radius: 5px;
+width: 100%;
+bottom: 0;
+left: 0;
+background-color: #3176f9;
+}
+
+
+
+.job-card{
+    color: #a1a1a1;
+    max-width: 100%;
+}
+.job-card .context{
+    border-bottom: 4px solid #a1a1a1;
+padding-bottom: 30px;
+margin-bottom: 40px;
+width: 1098px;
+
+}
+
+
+.job-card .time , .job-card .name{
+    border-radius: 15px;
+padding: 5px 35px; 
+color: #ffffff;
+}
+
+
+.job-card .time{
+background-color: #56ccad;
+}
+.job-card .name{
+    background-color: #3177fa;
+}
+
+.job-card .name-time{
+    position: relative;
+}
+/* .job-card .name-time::before{
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    content: '';
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+} */
+
+.divide{
+    width: 3px;
+height: 38px;
+border-radius: 2px;
+background-color: #a1a1a1;
+}

@@ -1,0 +1,93 @@
+.codeclub-about {
+  padding-top: 5px;
+}
+.codeclub-about .first-titles {
+  text-align: center;
+}
+.codeclub-about .first-titles h1 {
+  font-size: 54px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Calibri";
+}
+.codeclub-about .first-titles p {
+  font-size: 20px;
+  color: #a1a1a1;
+  font-weight: bold;
+  padding: 0 20px;
+  font-family: "Calibri";
+  text-align: center;
+}
+.applying_eachstep h2 {
+  margin: 5px 0;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Calibri";
+}
+.applying_eachstep h4 {
+  font-size: 18px;
+  color: #a1a1a1;
+  font-weight: bold;
+  font-family: "Calibri";
+  text-align: center;
+}
+.applysteps {
+  gap: 10px;
+}
+.stepimage {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #f4faff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.codeclub-about h3 {
+  font-size: 43px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Calibri";
+}
+.category {
+  gap: 10px;
+}
+.eachcat {
+  border-radius: 5px;
+  background-color: #000000;
+  border: 1px solid #a1a1a1;
+  text-align: left;
+  padding: 5px 20px;
+  width: 365px;
+  max-width: 100%;
+  background-color: white;
+}
+.eachcat h2 {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+}
+.eachcat h4 {
+  font-size: 21px;
+  color: #a1a1a1;
+}
+.category .eachcat:nth-child(2) {
+  background-color: #3177fa;
+  color: white;
+}
+.category .eachcat:nth-child(2) h4,
+.category .eachcat:nth-child(2) h2 {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .codeclub-about .first-titles h1 {
+    font-size: 40px;
+  }
+  .codeclub-about .first-titles p {
+    font-size: 12px;
+  }
+}

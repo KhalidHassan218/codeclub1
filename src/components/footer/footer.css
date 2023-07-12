@@ -1,0 +1,22 @@
+.footer{
+    background-color: #2e3039;
+    color: #fff;
+}
+
+
+.footer .title{
+border-radius: 2px;
+border-bottom: 4px solid #a1a1a1;
+width: fit-content;
+}
+
+.footer .content > div{
+width: calc(100% / 4);
+}
+ .copy{
+    background-color: #191d29;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+

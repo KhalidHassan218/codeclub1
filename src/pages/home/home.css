@@ -1,0 +1,89 @@
+.codeclub_home {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    68deg,
+    #7e5ea5 0%,
+    #4346b5 35%,
+    #0c1333 100%
+  );
+}
+.codeclub_home .home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.codeclub_home .home-content .first-letter {
+  max-width: 655px;
+  padding: 11px;
+  border-radius: 25px;
+  background-color: #5c5fb8;
+}
+
+.codeclub_home .home-content .first-letter span:first-child {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Cairo";
+  max-width: 130px;
+  padding: 0px 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.codeclub_home .home-content p {
+  margin-top: 5px;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+.codeclub_home .home-content form {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  max-width: 808px;
+}
+.growing {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Calibri";
+  text-align: center;
+  margin: 10px 0;
+}
+@media (max-width: 767px) {
+  .codeclub_home .home-content .first-letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .codeclub_home .home-content p {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .codeclub_home .home-content form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .codeclub_home .home-content form input {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+}
+
+.companiesimage img {
+  mix-blend-mode: screen;
+}
+
+@media (max-width: 668px) {
+  .companiesimage img {
+    width: 70px;
+  }
+}
